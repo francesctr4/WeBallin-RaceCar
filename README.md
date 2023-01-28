@@ -15,7 +15,7 @@ _**Code & Management:** Francesc Teruel_
 _**Code & Quality Assurance (QA):** Mario García_
 * **GitHub:** [mariogs5](https://github.com/mariogs5)
 
-_**¿¿¿???:** Joel Romero_
+_**Code & Audio Design:** Joel Romero_
 * **GitHub:** [Joeltecke25](https://github.com/Joeltecke25)
 
 ## Game Description
