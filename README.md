@@ -6,10 +6,10 @@
 
 ## Team Members
 
-_**Map & Gameplay Design:** Víctor Gil_
+_**Code, Map & Gameplay Design:** Víctor Gil_
 * **GitHub:** [Ludo-pixel](https://github.com/Ludo-pixel)
 
-_**Code & Management:** Francesc Teruel_
+_**Lead Code & Management:** Francesc Teruel_
 * **GitHub:** [francesctr4](https://github.com/francesctr4)
 
 _**Code & Quality Assurance (QA):** Mario García_
