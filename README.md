@@ -20,7 +20,7 @@ _**Code & Audio Design:** Joel Romero_
 
 ## Game Description
 
-
+![WeBallin-RaceCar](https://user-images.githubusercontent.com/99948892/215283765-8a6634dd-8c45-4337-9f33-92fe3bc200b9.png)
 
 ## Objective
 
