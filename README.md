@@ -30,7 +30,7 @@ _**Code & Audio Design:** Joel Romero_
 
 ### KEYBOARD ###
 	
-	W --> 
+	W --> Forward
 	A -->
 	S --> 
 	D --> 
