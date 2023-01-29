@@ -24,7 +24,9 @@ _**Code & Audio Design:** Joel Romero_
 
 ## Objective
 
-The objective of the game is to arrive at the end of the circuit. There's some checkpoints in the map that allow you to respawn at them in case you fall down. If you arrive at the finish line, you win!...or you can reset the checkpoints if you want give the circuit another try.
+- The objective of the game is to arrive at the end of the circuit. 
+- There's some checkpoints in the map that allow you to respawn at them in case you fall down. 
+- If you arrive at the finish line, you win!...or you can reset the checkpoints if you want give the circuit another try.
 
 ## Game Controls
 
