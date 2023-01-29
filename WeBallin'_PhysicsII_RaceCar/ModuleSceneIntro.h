@@ -3,8 +3,7 @@
 #include "p2DynArray.h"
 #include "Globals.h"
 #include "Primitive.h"
-
-#define MAX_SNAKE 2
+#include <vector>
 
 struct PhysBody3D;
 struct PhysMotor3D;
@@ -22,13 +21,6 @@ public:
 	void OnCollision(PhysBody3D* body1, PhysBody3D* body2);
 
 public:
-	/*
-	PhysBody3D* pb_snake[MAX_SNAKE];
-	Sphere s_snake[MAX_SNAKE];
-
-	PhysBody3D* pb_snake2[MAX_SNAKE];
-	Sphere s_snake2[MAX_SNAKE];
-	*/
 
 	PhysBody3D* pb_chassis;
 	Cube p_chassis;
@@ -41,4 +33,26 @@ public:
 
 	PhysMotor3D* left_wheel;
 	PhysMotor3D* right_wheel;
+
+	bool cameraControl;
+
+	Cube* CreateGround();
+	Cube* ground;
+
+	Cube* CreateMapLimit(int posX, int posY, int posZ);
+	std::vector<Cube*> mapLimits;
+
+	Cube* CreateRamp(int posX, float posY, int posZ, int sizeX, int sizeY, int sizeZ, int angleRotX, int angleRotY, int angleRotZ);
+	std::vector<Cube*> ramps;
+
+	Cylinder* CreateBump(float posX, float posY, float posZ);
+	std::vector<Cylinder*> bumps;
+
+	Cube* CreateMapLimit(int posX, int posY, int posZ);
+	std::vector<Cube*> sensors;
+
+	bool enableGravity;
+	bool enableLift;
+	bool enableDrag;
+
 };

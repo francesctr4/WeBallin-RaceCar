@@ -7,6 +7,7 @@
 #define _USE_MATH_DEFINES
 
 #include <math.h>
+#include "Bullet/include/LinearMath/btVector3.h"
 
 // ----------------------------------------------------------------------------------------------------------------------------
 
@@ -168,6 +169,9 @@ public:
 	~vec3()
 	{}
 	vec3(float num) : x(num), y(num), z(num)
+	{}
+
+	vec3(btVector3 vec) : x(vec.getX()), y(vec.getY()), z(vec.getZ())
 	{}
 	vec3(float x, float y, float z) : x(x), y(y), z(z)
 	{}
