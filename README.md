@@ -2,7 +2,7 @@
 
 ### [WeBallin-RaceCar Repository](https://github.com/francesctr4/WeBallin-RaceCar)
 
-### Current release version: None
+### Current release version: Alpha
 
 ## Team Members
 
@@ -32,7 +32,7 @@ _**Code & Audio Design:** Joel Romero_
 	
 	W --> Move Forward
 	A --> Move Left
-	S --> Move Back
+	S --> Move Back / Brake
 	D --> Move Right
 	
 	SPACE --> Jump
@@ -40,21 +40,18 @@ _**Code & Audio Design:** Joel Romero_
 	
 	UP --> Rotate Forward
 	DOWN --> Rotate Back
-	LEFT --> Rotate to the Left
-	RIGHT --> Rotate to the Right
+	LEFT --> Rotate Left
+	RIGHT --> Rotate Right
 
 	ESC --> Exit Game
 	
 ### DEBUG KEYS ###
 
-	F1 --> Toogle Show Colliders
-	F2 --> Toogle Camera Control
-	F3 --> Restart Level
-	F4 --> Enable / Dissable Gravity Force
-	F5 --> Enable / Dissable Lift Force
-	F6 --> Enable / Dissable Drag Force
-	F7 --> 
-	F8 --> 
-	F9 --> 
-	F10 --> 
-	F11 --> 
+	F1 --> Toggle show colliders
+	F2 --> Toggle camera control
+	F3 --> Restart level
+	F4 --> Enable / Disable Gravity Force
+	F5 --> Enable / Disable Lift Force
+	F6 --> Enable / Disable Drag Force
+	F7 --> Restart from last checkpoint
+	F8 --> Reset checkpoints when arrived at the end
