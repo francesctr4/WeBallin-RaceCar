@@ -30,26 +30,29 @@ _**Code & Audio Design:** Joel Romero_
 
 ### KEYBOARD ###
 	
-	W --> 
-	A -->
-	S --> 
-	D --> 
+	W --> Move Forward
+	A --> Move Left
+	S --> Move Back
+	D --> Move Right
 	
-	UP --> 
-	DOWN --> 
-	SPACE --> 
+	SPACE --> Jump
+	LEFT SHIFT --> Boost
 	
-	ENTER --> 
-	ESC --> 
+	UP --> Rotate Forward
+	DOWN --> Rotate Back
+	LEFT --> Rotate to the Left
+	RIGHT --> Rotate to the Right
+
+	ESC --> Exit Game
 	
 ### DEBUG KEYS ###
 
-	F1 --> 
-	F2 --> 
-	F3 --> 
-	F4 --> 
-	F5 --> 
-	F6 --> 
+	F1 --> Toogle Show Colliders
+	F2 --> Toogle Camera Control
+	F3 --> Restart Level
+	F4 --> Enable / Dissable Gravity Force
+	F5 --> Enable / Dissable Lift Force
+	F6 --> Enable / Dissable Drag Force
 	F7 --> 
 	F8 --> 
 	F9 --> 
