@@ -1,0 +1,59 @@
+﻿  Application.cpp
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\Application.cpp(12,33): warning C4316: 'ModulePlayer': puede que el objeto asignado en el montón no esté alineado 16
+  Color.cpp
+  glmath.cpp
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(12,13): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(27,17): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(43,34): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(53,10): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(53,26): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(72,13): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(87,17): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(103,34): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(600,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(618,10): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(618,33): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(758,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(778,10): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\glmath.cpp(778,33): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  Light.cpp
+  log.cpp
+  Main.cpp
+  ModuleAudio.cpp
+  ModuleCamera3D.cpp
+  ModuleInput.cpp
+  ModulePhysics3D.cpp
+  ModulePlayer.cpp
+  ModuleRenderer3D.cpp
+  ModuleSceneIntro.cpp
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(235,19): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(243,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(243,31): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(243,24): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(245,27): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(245,15): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(249,21): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(254,21): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(259,21): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(395,51): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(396,52): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(409,70): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(410,71): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(979,55): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(985,71): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(998,61): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(999,61): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(1005,52): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(1006,53): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(1034,51): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\ModuleSceneIntro.cpp(1035,52): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  ModuleWindow.cpp
+  PhysBody3D.cpp
+  PhysVehicle3D.cpp
+  Primitive.cpp
+  Timer.cpp
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 562 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  3D Physics.vcxproj -> C:\Users\34646\OneDrive\Escritorio\Copia de Seguridad Física (28_01_2023)\WeBallin'_PhysicsII_RaceCar\Release\3D Physics - class5.exe

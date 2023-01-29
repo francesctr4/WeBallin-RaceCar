@@ -97,10 +97,16 @@ bool ModulePlayer::Start()
 	car.wheels[3].steering = false;
 
 	vehicle = App->physics->AddVehicle(car);
+
 	vehicle->collision_listeners.add(this);
 	vehicle->SetPos(0, 0, 10);
+	vehicle->SetType(PhysBody3D::Type::PLAYER);
 
 	initialPos = App->player->vehicle->vehicle->getRigidBody()->getWorldTransform();
+	checkpointPos = App->player->vehicle->vehicle->getRigidBody()->getWorldTransform();
+
+	winFx = App->audio->LoadFx("Audio/WinEffect.wav");
+	checkpointFx = App->audio->LoadFx("Audio/Checkpoint.wav");
 	
 	return true;
 }
@@ -201,5 +207,70 @@ update_status ModulePlayer::Update(float dt)
 	return UPDATE_CONTINUE;
 }
 
+void ModulePlayer::OnCollision(PhysBody3D* body1, PhysBody3D* body2)
+{
+	switch (body2->GetType()) {
 
+	case PhysBody3D::Type::CHECKPOINT_1:
+
+		App->scene_intro->checkpoint_1.clear();
+
+		checkpointPos = App->player->vehicle->vehicle->getRigidBody()->getWorldTransform();
+
+		App->audio->PlayFx(checkpointFx);
+
+		break;
+
+	case PhysBody3D::Type::CHECKPOINT_2:
+
+		App->scene_intro->checkpoint_2.clear();
+
+		checkpointPos = App->player->vehicle->vehicle->getRigidBody()->getWorldTransform();
+
+		App->audio->PlayFx(checkpointFx);
+
+		break;
+
+	case PhysBody3D::Type::CHECKPOINT_3:
+
+		App->scene_intro->checkpoint_3.clear();
+
+		checkpointPos = App->player->vehicle->vehicle->getRigidBody()->getWorldTransform();
+
+		App->audio->PlayFx(checkpointFx);
+
+		break;
+
+	case PhysBody3D::Type::CHECKPOINT_4:
+
+		App->scene_intro->checkpoint_4.clear();
+
+		checkpointPos = App->player->vehicle->vehicle->getRigidBody()->getWorldTransform();
+
+		App->audio->PlayFx(checkpointFx);
+
+		break;
+
+	case PhysBody3D::Type::CHECKPOINT_5:
+
+		App->scene_intro->checkpoint_5.clear();
+
+		checkpointPos = App->player->vehicle->vehicle->getRigidBody()->getWorldTransform();
+
+		App->audio->PlayFx(checkpointFx);
+
+		break;
+
+	case PhysBody3D::Type::CHECKPOINT_FINAL:
+
+		App->scene_intro->checkpoint_final.clear();
+
+		checkpointPos = App->player->vehicle->vehicle->getRigidBody()->getWorldTransform();
+
+		App->audio->PlayFx(winFx);
+
+		break;
+	}
+
+}
 

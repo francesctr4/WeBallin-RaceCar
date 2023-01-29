@@ -20,6 +20,8 @@ public:
 	update_status Update(float dt);
 	bool CleanUp();
 
+	void OnCollision(PhysBody3D* body1, PhysBody3D* body2);
+
 public:
 
 	PhysVehicle3D* vehicle;
@@ -28,5 +30,9 @@ public:
 	float brake;
 
 	btTransform initialPos;
+	btTransform checkpointPos;
+
+	uint winFx;
+	uint checkpointFx;
 
 };
